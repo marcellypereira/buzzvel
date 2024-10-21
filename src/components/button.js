@@ -9,7 +9,7 @@ const OutlineButton = ({ text, variant = 'primary' }) => {
 
   return (
     <button
-      className={`flex items-center border ${styles} font-bold leading-6 text-2xl transition duration-300 py-4 px-6 rounded-full`}
+      className={`flex items-center border ${styles} font-bold leading-6 text-2xl transition duration-300 py-5 px-8 rounded-full`}
     >
       {text}
       <HiArrowRight className="ml-4 w-4 h-4" />

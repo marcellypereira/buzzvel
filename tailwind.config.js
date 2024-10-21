@@ -8,7 +8,9 @@ export default {
         primary: "#581C87",
         dark: "#0F172A",
         blue: "#0369A1",
-        lightGray: "#FFFFFF",
+        blueLight: "#BAE6FD",
+        light: "#FFFFFF",
+        gray: "#475569",
         orange: "#D97706",
         yellow: "#FCD34D",
         brown: "#78350F"
