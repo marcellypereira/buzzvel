@@ -1,8 +1,17 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
+
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/heading-has-content */
 export default function PickSun() {
   return (
     <div className="max-w-[1920px] mx-auto">
+      {/* Configurando o Helmet para SEO */}
+      <Helmet>
+        <title>Pick the Sun</title>
+        <meta name="description" content="No more waste. Et pulvinar nec interdum integer id urna molestie porta nullam." />
+      </Helmet>
+
       <div className="mt-20 lg:mt-40">
         <section className="text-center">
           <p className="text-lg sm:text-xl text-[#D97706] leading-9 font-medium mt-6 lg:mt-10">
