@@ -1,11 +1,11 @@
 import './App.css';
-import Header from './screens/header';
+import Hero from './screens/hero';
 import PickSun from './screens/pickSun';
 
 function App() {
   return (
     <>
-      <Header />
+      <Hero />
       <PickSun />
     </>
   );
