@@ -12,7 +12,7 @@ export default function Service() {
       <section className="grid grid-cols-1 md:grid-cols-[1fr_2fr] lg:grid-cols-[1fr_2fr] gap-6 items-center lg:mt-40 mt-20">
         
         <figure className="lg:max-w-xl md:max-w-xl max-w-[344px] flex justify-center order-2 md:order-1">
-          <img src="image5.png" alt="Descrição da imagem" className="w-full" />
+          <img src="image3.png" alt="Descrição da imagem" className="w-full" />
         </figure>
 
         <div className="flex flex-col lg:text-start md:text-start text-center px-4 order-1 md:order-2">

@@ -6,10 +6,10 @@ export default function Header() {
 
   return (
     <header className="absolute top-0 left-0 w-full z-50">
-      <nav className="max-w-[1920px] mx-auto p-4 flex justify-between items-center">
+      <nav className="max-w-[1920px] mx-auto p-4 flex justify-between items-center" aria-label="Main Navigation">
         <div className="flex items-center">
           <h1 className="text-black text-3xl font-bold hover:text-primary mr-8">
-            <a href="#">soller</a>
+            <a href="#" aria-label="Homepage">soller</a>
           </h1>
           <ul className="flex items-center gap-x-8">
             {navItems.map((item) => (
@@ -23,7 +23,7 @@ export default function Header() {
         </div>
 
         <div className="hidden lg:flex items-center gap-4">
-          <div className="flex items-center gap-3 text-[#0369A1]">
+          <div className="flex items-center gap-3 text-[#0369A1" aria-label="Contact Information">
             <img src="icon1.png" alt="Contact icon" className="w-5 h-5" />
             <p className="text-base">55 818 282</p>
           </div>
